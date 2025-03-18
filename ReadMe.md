@@ -14,8 +14,8 @@ Given a dataset containing information about laptops (product names, specificati
 
 ## 4. System Functionalities
 
-- **User Interface:** ShopAssistAI provides a user-friendly web interface where users can interact with the conversational AI assistant.
-- **Conversational AI:** The core of ShopAssistAI is the conversational AI powered by OpenAI's chat model. It guides the user through the process by asking relevant questions and understanding their needs.
+- **User Interface:** ShopassistAI provides a user-friendly web interface where users can interact with the conversational AI assistant.
+- **Conversational AI:** The core of ShopassistAI is the conversational AI powered by OpenAI's chat model. It guides the user through the process by asking relevant questions and understanding their needs.
 - **User Input Moderation:** User input is moderated using OpenAI's moderation API to ensure a safe and secure conversation.
 - **User Profile Extraction:** The AI assistant extracts key information from the conversation to build a user profile that reflects their laptop preferences (budget, screen size, processing power, etc.) using OpenAI's function calling mechanism to convert a user requirement string into a JSON object.
 
@@ -23,7 +23,7 @@ We have a dataset `laptop_data.csv` where each row describes the features of a s
 
 ## 5. System Architecture
 
-ShopAssistAI follows a client-server architecture. Users interact with the web interface hosted on a server running the Flask application. The application interacts with OpenAI's API for conversation generation and moderation and retrieves and compares laptop data from an external database.
+ShopassistAI follows a client-server architecture. Users interact with the web interface hosted on a server running the Flask application. The application interacts with OpenAI's API for conversation generation and moderation and retrieves and compares laptop data from an external database.
 
 ![stages](https://github.com/user-attachments/assets/e6e690f5-8bb2-4cf6-9b13-08b7eaee14f9)
 
@@ -58,8 +58,8 @@ To get started with ShopAssist AI, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/dynamicanupam/ShopAssist-AI.git
-   cd ShopAssist-AI
+   git clone https://github.com/KGeethaanjali/ShopassistAI.git
+   cd ShopassistAI
    ```
 2. **Lunch VS Code from Anaconda**
    - In VS Code go to `File` > `Open Folder...` and select the `ShopassistAI` folder.
